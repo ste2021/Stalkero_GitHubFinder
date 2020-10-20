@@ -1,10 +1,10 @@
-## STALKERO - Git Stalker 	🕵️‍♀️💻
+# STALKERO - Git Stalker 	🕵️‍♀️💻
 
 ### DEV : [Estela de Oliveira](https://github.com/ste2021) 🚀
 
-## Objetivo do projeto
+#### Objetivo do projeto
 
-# Desenvolver um site que busque os devs da região de Piracicaba consumindo a API Git HUB
+### Desenvolver um site que busque os devs da região de Piracicaba consumindo a API do Github
 
 ```Requisitos Necessários```
 
