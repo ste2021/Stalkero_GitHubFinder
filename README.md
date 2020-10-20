@@ -11,7 +11,7 @@
 - [x] Uma IDE de sua preferência, aqui trabalhei com VSCode;
 
 
-```Tecnologias Utilizadaas```
+```Tecnologias Utilizadas```
 
 - [x] HTML
 - [x] CSS
