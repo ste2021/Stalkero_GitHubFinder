@@ -1,3 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -15,12 +24,12 @@ input {
 
 input,
 button {
-    padding: 10px;
+    padding: 05px;
 }
 
 .titulo {
     color: rgb(243, 210, 243);
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 20px;
     margin-top: 18px;
     float: left;
@@ -58,14 +67,14 @@ button {
 
 .searchform {
     display: block;
-    width: 500px;
+    width: 300px;
     height: 100%;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
+    background-color: rgb(233, 216, 233);
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border-radius: 1px solid #ced4da;
     box-shadow: #32004fff, 10px;
 }
 
@@ -79,7 +88,7 @@ button {
 
 .pesquisarPiracicabanos {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
     text-align: center;
 }
