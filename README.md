@@ -8,7 +8,7 @@
 
 ```Requisitos Necessários```
 
-- [x] Uma IDE de sua preferência, aqui trabalhei com VSCode;
+- [x] Uma IDE de sua preferência, aqui trabalhei com VSCode 🖥
 
 
 ```Tecnologias Utilizadas```
