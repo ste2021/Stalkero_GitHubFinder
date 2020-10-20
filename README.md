@@ -1,4 +1,4 @@
-## STALKERO - Git Stalker
+## STALKERO - Git Stalker 	🕵️‍♀️
 
 ### DEV : [Estela de Oliveira](https://github.com/ste2021)
 
