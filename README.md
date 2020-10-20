@@ -1,4 +1,4 @@
-## STALKERO - Git Stalker 	🕵️‍♀️
+## STALKERO - Git Stalker 	🕵️‍♀️💻
 
 ### DEV : [Estela de Oliveira](https://github.com/ste2021) 🚀
 
@@ -13,9 +13,9 @@
 
 ```Tecnologias Utilizadas```
 
-- [x] HTML 
-- [x] CSS
-- [x] Javascript 
+- [x] HTML 📗
+- [x] CSS 📘
+- [x] Javascript 📙
 
 
 ## Pontos a melhorar no projeto
