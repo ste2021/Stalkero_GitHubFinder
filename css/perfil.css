@@ -1,0 +1,80 @@
+.perfil {
+    width: auto;
+    height: auto;
+    color: aliceblue;
+    margin-top: 40px;
+    margin: 20px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(248, 229, 248);
+    background-clip: border-box;
+    border: 1px solid rgba(182, 117, 162, 0.125);
+    border-radius: 40px;
+}
+
+.imagemPerfil {
+    width: 150px;
+    height: 200;
+    margin-top: 20px;
+    flex-direction: row;
+    float: left;
+}
+
+.nome {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.repos {
+    color: #32004fff;
+    margin-top: 05px;
+    font-weight: 400;
+}
+
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.reposRepositorios {
+    list-style-image: url("../images/iconmonstr-github-1.svg");
+}
+
+.reposLinkedin {
+    list-style-image: url("../images/iconmonstr-linkedin-3.svg");
+}
+
+.reposEmail {
+    list-style-image: url("../images/iconmonstr-email-12.svg");
+}
+
+.reposSeguidores {
+    list-style-image: url("../images/iconmonstr-friend-1.svg");
+}
+
+.reposLocation {
+    list-style-image: url("../images/iconmonstr-location-18.svg");
+}
+
+.bottom {
+    font-size: 30px;
+    text-align: center;
+}
+
+.bottomperfil {
+    background-color: rgb(7, 1, 19);
+    color: rgb(243, 210, 243);
+    text-align: center;
+    border-radius: 05px;
+}

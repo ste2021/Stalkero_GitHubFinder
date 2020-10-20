@@ -1,0 +1,18 @@
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+código par mudar a cor do search.... barra de pesquisasaa
+
+
+css tricks - site
+
+
+
+https://codepen.io/origamid/pen/pyGqeB
+
+https://geracaocriativa.com/conteudos/desenvolvimento/codigo/36-17-animacoes-css-a-nao-perder-1parte
+
+infinite scroll - pesquisar no site 
