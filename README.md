@@ -23,7 +23,7 @@
 - [x] Melhorar o código
 - [x] Melhorar o Design
 
-#### Sites Referências:
+#### Referências:
 
 - [x] [CSS Gradient](https://cssgradient.io/)
 - [x] [Maujor](https://www.maujor.com/)
