@@ -13,15 +13,15 @@
 
 ```Tecnologias Utilizadas```
 
-- [x] HTML
+- [x] HTML 
 - [x] CSS
 - [x] Javascript 
 
 
 ## Pontos a melhorar no projeto
 
-- [x] Melhorar o código
-- [x] Melhorar o Design
+- [x] Melhorar o código 💿
+- [x] Melhorar o Design 💿💿
 
 #### Referências:
 
