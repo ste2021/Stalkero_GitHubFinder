@@ -1,26 +1,19 @@
-.perfil {
-    width: auto;
-    height: auto;
-    color: aliceblue;
-    margin-top: 40px;
-    margin: 20px;
-}
-
+@import url(https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap);
 .card {
     position: relative;
     display: -ms-flexbox;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 0;
-    -ms-flex-direction: column;
+    width: 940px;
+    height: auto;
+    /* -ms-flex-direction: column; */
     flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
     background-color: rgb(248, 229, 248);
     background-clip: border-box;
     border: 1px solid rgba(182, 117, 162, 0.125);
     border-radius: 40px;
+    padding: 20px;
 }
 
 .imagemPerfil {
@@ -33,7 +26,9 @@
 
 .nome {
     font-size: 20px;
-    vertical-align: middle;
+    text-align: left;
+    /* vertical-align: middle; */
+    float: right;
 }
 
 .repos {
@@ -42,9 +37,10 @@
     font-weight: 400;
 }
 
-li {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.lista {
+    font-family: 'Karla', sans-serif;
     font-size: 15px;
+    /* padding-top: 10px; */
 }
 
 .reposRepositorios {
@@ -68,7 +64,8 @@ li {
 }
 
 .bottom {
-    font-size: 30px;
+    box-shadow: inset;
+    font-size: 15px;
     text-align: center;
 }
 
