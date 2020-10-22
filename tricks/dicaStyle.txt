@@ -11,7 +11,7 @@ css tricks - site
 
 
 
-https://codepen.io/origamid/pen/pyGqeB
+
 
 https://geracaocriativa.com/conteudos/desenvolvimento/codigo/36-17-animacoes-css-a-nao-perder-1parte
 
