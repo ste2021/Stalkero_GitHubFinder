@@ -18,6 +18,10 @@ nav {
     top: 0;
 }
 
+main {
+    float: left;
+}
+
 .titulo {
     color: rgb(243, 210, 243);
     font-family: 'Chau Philomene One', sans-serif;
