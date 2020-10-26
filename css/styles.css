@@ -58,6 +58,7 @@ main {
 }
 
 .searchNav {
+    margin-top: 75px;
     margin-right: 20px;
     background: rgb(202, 133, 223);
     color: #32004fff;
@@ -66,16 +67,14 @@ main {
 }
 
 .searchform {
-    display: block;
-    width: 300px;
-    height: 100%;
+    position: relative;
+    width: 195px;
+    height: auto;
     font-size: 12px;
     line-height: 1.5;
     color: #495057;
     background-color: rgb(233, 216, 233);
     background-clip: padding-box;
-    border-radius: 1px solid #ced4da;
-    box-shadow: #32004fff, 10px;
 }
 
 .searchBar {
@@ -87,8 +86,5 @@ main {
 }
 
 .pesquisarPiracicabanos {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    font-style: italic;
     text-align: center;
 }
