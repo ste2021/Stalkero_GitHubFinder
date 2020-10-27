@@ -33,7 +33,7 @@ main {
 }
 
 .img {
-    width: 130px;
+    width: 107px;
     height: auto;
     position: relative;
     margin: right;
@@ -58,7 +58,7 @@ main {
 }
 
 .searchNav {
-    margin-top: 75px;
+    margin-top: 43px;
     margin-right: 20px;
     background: rgb(202, 133, 223);
     color: #32004fff;

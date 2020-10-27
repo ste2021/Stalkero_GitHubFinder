@@ -5,6 +5,12 @@
     grid-gap: 10px;
 }
 
+.perfil-listado :hover {
+    transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transform: scale3d(1, 2);
+    cursor: pointer;
+}
+
 .perfil-listado {
     width: 250px;
     height: auto;
