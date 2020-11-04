@@ -33,9 +33,18 @@
             <div class="clearfix "></div>
         </div>
     </header>
-    <div>
+    <div class="filtros">
         <p class="filtro"> FILTRAR</p>
+        <input type="radio" name="filtro" id="todo" checked>
+        <label>Data</label>
+        <input type="radio" name="filtro" id="laptop">
+        <label>Stars</label>
+        <input type="radio" name="filtro" id="tablet">
+        <label>Followers</label>
+
+
     </div>
+    <br><br>
     <main>
 
         <div id=lista>
@@ -43,14 +52,14 @@
              <div class="item">
                <img id="img" src="https://avatars1.githubusercontent.com/u/6587457?s=400&v=4" alt="foguetao">
                <br>
-              <h2 class="name">Titulo</h2>
-              <h5 class>Subtitulo</h5>
+              <h2 id="name"></h2>
+              <h5 class></h5>
             </div>
             </div>
           </template>
     </main>
 </body>
-<script src="api/user.js"></script>
+<script src="test/array.js"></script>
 <script src="./js/listauser.js"></script>
 <script src="./js/filterscroll.js"></script>
 <footer id='footer'>
