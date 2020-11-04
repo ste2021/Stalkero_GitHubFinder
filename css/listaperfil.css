@@ -1,65 +1,28 @@
-@import url(https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap);
-.container {
+.item {
+    font-family: 'Roboto Mono', sans-serif;
+    margin: 10px auto;
+    border: 05px solid #71067a20;
+    padding: 05px;
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-gap: 10px;
+    float: right;
+    grid-template-columns: repeat(auto-fill, minmax(150px, auto));
+    color: rgb(87, 13, 129);
+    background-color: rgb(248, 229, 248);
+    border-radius: 05px;
 }
 
-.perfil-listado :hover {
-    transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    transform: scale3d(1, 2);
+.item :hover {
+    color: yellow;
     cursor: pointer;
 }
 
-.perfil-listado {
-    width: 250px;
-    height: auto;
-    box-shadow: 3px 3px 10px;
-    background-color: rgb(248, 229, 248);
-    background-clip: border-box;
-    border: 05px solid rgba(182, 117, 162, 0.125);
-    border-radius: 16px;
-    padding: 06px;
+.name {
+    font-size: 16px;
+    font-weight: 02px;
+    margin-top: 02px;
 }
 
-#img-perfil {
-    float: left;
-    margin-right: 10px;
-    width: 55px;
-    height: auto;
-    margin-top: 20px;
-    flex-direction: row;
-}
-
-.nomeLista {
-    font-family: 'Roboto Mono', sans-serif;
-    font-weight: 05px;
-    text-transform: uppercase;
-    margin-bottom: -20px;
-}
-
-ul {
-    padding-top: 08px;
-    padding-left: 5px;
-    border-top: 1px solid #eee;
-}
-
-ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 0 3px;
-}
-
-li span {
-    display: block;
-    text-align: center;
-}
-
-.num {
-    font-size: 12px;
-    color: rgb(87, 13, 129);
-}
-
-.label {
-    font-size: 0.75em;
+#img {
+    width: 100px;
+    height: 80px;
 }

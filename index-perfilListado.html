@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/perfil.css">
     <link rel="stylesheet" href="./css/listaperfil.css">
@@ -15,147 +16,45 @@
 
     <header>
         <div class=" nav">
-            <nav class="navbar ">
+            <nav class="navbar">
                 <!-- <img class="img " src="./images/lupapurple.svg " /> -->
                 <img class="img " src="./images/githubicon.png " />
                 <h2 class="titulo ">STALKERO</h2>
                 <div class="clearfix "></div>
             </nav>
             <div class="searchNav ">
-                <div class="searchbar ">
-                    <p class="pesquisarPiracicabanos ">
-                        <img class="imgLupa " src="./images/lupinha.svg " />
-                    </p>
-                    <input id="filtro" class="searchform" placeholder="Encontre seu Dev aqui" />
-                </div>
+
+                <p class="pesquisarPiracicabanos ">
+                    <img class="imgLupa " src="./images/loupe.png" />
+                </p>
+                <input id="filtro" class="searchform" placeholder="Encontre seu Dev aqui" required />
             </div>
+
             <div class="clearfix "></div>
         </div>
     </header>
     <div>
-        <a class="link" href="./index2.html">
-
-            <center>Perfil</center>
-        </a>
+        <p class="filtro"> FILTRAR</p>
     </div>
     <main>
-        <div class="container">
-            <div class="perfil-listado">
-                <img id="img-perfil" src="https://avatars1.githubusercontent.com/u/6587457?s=400&v=4" alt="foto-dev">
-                <p class="nomeLista">Matheus Crivellari</p>
-                <ul id="perfil-descricao">
-                    <li>
-                        <span class="num repos">15</span>
-                        <span class="label">Repos</span>
-                    </li>
-                    <li>
-                        <span class="num following">28</span>
-                        <span class="label">Following</span>
-                    </li>
-                    <li>
-                        <span class="num followers">25</span>
-                        <span class="label">Followers</span>
-                </ul>
 
+        <div id=lista>
+            <template id="tmp">
+             <div class="item">
+               <img id="img" src="https://avatars1.githubusercontent.com/u/6587457?s=400&v=4" alt="foguetao">
+               <br>
+              <h2 class="name">Titulo</h2>
+              <h5 class>Subtitulo</h5>
             </div>
-            <div class="perfil-listado">
-                <img id="img-perfil" src="https://avatars1.githubusercontent.com/u/6587457?s=400&v=4" alt="foto-dev">
-                <p class="nomeLista">Matheus Crivellari</p>
-                <ul id="perfil-descricao">
-                    <li>
-                        <span class="num repos">15</span>
-                        <span class="label">Repos</span>
-                    </li>
-                    <li>
-                        <span class="num following">28</span>
-                        <span class="label">Following</span>
-                    </li>
-                    <li>
-                        <span class="num followers">25</span>
-                        <span class="label">Followers</span>
-                </ul>
-
             </div>
-            <div class="perfil-listado">
-                <img id="img-perfil" src="https://avatars1.githubusercontent.com/u/6587457?s=400&v=4" alt="foto-dev">
-                <p class="nomeLista">Matheus Crivellari</p>
-                <ul id="perfil-descricao">
-                    <li>
-                        <span class="num repos">15</span>
-                        <span class="label">Repos</span>
-                    </li>
-                    <li>
-                        <span class="num following">28</span>
-                        <span class="label">Following</span>
-                    </li>
-                    <li>
-                        <span class="num followers">25</span>
-                        <span class="label">Followers</span>
-                </ul>
-
-            </div>
-            <div class="perfil-listado">
-                <img id="img-perfil" src="https://avatars1.githubusercontent.com/u/6587457?s=400&v=4" alt="foto-dev">
-                <p class="nomeLista">Matheus Crivellari</p>
-                <ul id="perfil-descricao">
-                    <li>
-                        <span class="num repos">15</span>
-                        <span class="label">Repos</span>
-                    </li>
-                    <li>
-                        <span class="num following">28</span>
-                        <span class="label">Following</span>
-                    </li>
-                    <li>
-                        <span class="num followers">25</span>
-                        <span class="label">Followers</span>
-                </ul>
-
-            </div>
-            <div class="perfil-listado">
-                <img id="img-perfil" src="https://avatars1.githubusercontent.com/u/6587457?s=400&v=4" alt="foto-dev">
-                <p class="nomeLista">Matheus Crivellari</p>
-                <ul id="perfil-descricao">
-                    <li>
-                        <span class="num repos">15</span>
-                        <span class="label">Repos</span>
-                    </li>
-                    <li>
-                        <span class="num following">28</span>
-                        <span class="label">Following</span>
-                    </li>
-                    <li>
-                        <span class="num followers">25</span>
-                        <span class="label">Followers</span>
-                </ul>
-
-            </div>
-            <div class="perfil-listado">
-                <img id="img-perfil" src="https://avatars1.githubusercontent.com/u/6587457?s=400&v=4" alt="foto-dev">
-                <a href="#" class="nomeLista">Matheus Crivellari</a>
-                <ul id="perfil-descricao">
-                    <li>
-                        <span class="num repos">15</span>
-                        <span class="label">Repos</span>
-                    </li>
-                    <li>
-                        <span class="num following">28</span>
-                        <span class="label">Following</span>
-                    </li>
-                    <li>
-                        <span class="num followers">25</span>
-                        <span class="label">Followers</span>
-                </ul>
-
-            </div>
-
-
-        </div>
-        </section>
+          </template>
     </main>
 </body>
 <script src="api/user.js"></script>
 <script src="./js/listauser.js"></script>
 <script src="./js/filterscroll.js"></script>
+<footer id='footer'>
+    Desenvolvido por Estela de Oliveira ®
+</footer>
 
 </html>

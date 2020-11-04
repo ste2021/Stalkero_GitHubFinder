@@ -3,9 +3,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap);
 body {
     font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: rgb(7, 1, 19);
     background: linear-gradient(90deg, rgba(7, 1, 19, 1) 0%, rgba(60, 2, 79, 1) 35%, rgba(9, 8, 47, 1) 100%);
 }
 
@@ -44,6 +41,12 @@ main {
     clear: both;
 }
 
+.imgLupa {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+
 .nav {
     background-color: rgb(7, 1, 19);
     margin-bottom: 20px;
@@ -58,31 +61,22 @@ main {
 }
 
 .searchNav {
+    margin-right: 40px;
     margin-top: 43px;
-    margin-right: 20px;
-    background: rgb(202, 133, 223);
     color: #32004fff;
     float: right;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .searchform {
     position: relative;
     width: 195px;
     height: auto;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.5;
     color: #495057;
     background-color: rgb(233, 216, 233);
-    background-clip: padding-box;
-}
-
-.searchBar {
-    display: none;
-    position: absolute;
-    width: 500px;
-    background: #e2cae7;
-    border-radius: 2px;
+    border-radius: 05px;
 }
 
 .pesquisarPiracicabanos {
