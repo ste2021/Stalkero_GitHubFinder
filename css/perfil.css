@@ -5,7 +5,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 940px;
+    width: 980px;
     height: auto;
     /* -ms-flex-direction: column; */
     flex-direction: column;
@@ -13,7 +13,7 @@
     background-clip: border-box;
     border: 1px solid rgba(182, 117, 162, 0.125);
     border-radius: 40px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .imagemPerfil {
@@ -29,6 +29,7 @@
     text-align: left;
     /* vertical-align: middle; */
     float: right;
+    color: purple;
 }
 
 .repos {

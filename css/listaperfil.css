@@ -6,6 +6,13 @@ main {
     text-align: center;
 }
 
+.ldBar {
+    color: rgb(97, 18, 128);
+    font-family: 'varela round';
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
 .item {
     font-family: 'Roboto Mono', sans-serif;
     margin-left: auto;
