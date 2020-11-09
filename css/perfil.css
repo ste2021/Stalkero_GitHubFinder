@@ -1,5 +1,18 @@
 @import url(https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap);
+h4 {
+    margin: 20px;
+    text-align: center;
+    font-family: 'Roboto Mono', sans-serif;
+    color: rosybrown;
+}
+
+a:hover {
+    text-align: center;
+    color: blueviolet;
+}
+
 .card {
+    color: rgb(56, 3, 56);
     position: relative;
     display: -ms-flexbox;
     display: block;
@@ -7,7 +20,6 @@
     margin-right: auto;
     width: 980px;
     height: auto;
-    /* -ms-flex-direction: column; */
     flex-direction: column;
     background-color: rgb(248, 229, 248);
     background-clip: border-box;
@@ -16,7 +28,7 @@
     padding: 40px;
 }
 
-.imagemPerfil {
+#imagemPerfil {
     width: 150px;
     height: 200;
     margin-top: 20px;
@@ -42,37 +54,4 @@
     font-family: 'Karla', sans-serif;
     font-size: 15px;
     /* padding-top: 10px; */
-}
-
-.reposRepositorios {
-    list-style-image: url("../images/iconmonstr-github-1.svg");
-}
-
-.reposLinkedin {
-    list-style-image: url("../images/iconmonstr-linkedin-3.svg");
-}
-
-.reposEmail {
-    list-style-image: url("../images/iconmonstr-email-12.svg");
-}
-
-.reposSeguidores {
-    list-style-image: url("../images/iconmonstr-friend-1.svg");
-}
-
-.reposLocation {
-    list-style-image: url("../images/iconmonstr-location-18.svg");
-}
-
-.bottom {
-    box-shadow: inset;
-    font-size: 15px;
-    text-align: center;
-}
-
-.bottomperfil {
-    background-color: rgb(7, 1, 19);
-    color: rgb(243, 210, 243);
-    text-align: center;
-    border-radius: 05px;
 }

@@ -28,7 +28,7 @@
                 <p class="pesquisarPiracicabanos ">
                     <img class="imgLupa " src="./images/loupe.png" />
                 </p>
-                <input id="filtro" class="searchform" placeholder="Encontre seu Dev aqui" required />
+                <input id="search" class="searchform" placeholder="Encontre seu Dev aqui" required />
             </div>
 
             <div class="clearfix "></div>
@@ -45,24 +45,25 @@
     </div>
     <br><br>
     <main>
+
         <div class="ldBar " data-value="35" data-preset="circle"> </div>
 
         <div id=lista>
-            <template id="tmp">
-             <div class="item">
-               <img id="img" src="" alt="User">
-               <br>
-              <h2 id="name"></h2>
-              <h4></h4>
-              <h5></h5>
-            
-            </div>
-            </div>
-          </template>
+            <div id=lista>
+                <template id="tmp">
+                   <div class="item">
+                     <img class="imga" alt="foguetao">
+                     <br>
+                    <h2 class="name">Titulo</h2>
+                    <h5 class>Subtitulo</h5>
+                     <a>Ver Perfil</a>
+                  </div>
+                  </div>
+                </template>
     </main>
 </body>
+<script src="api/api.js"></script>
 <script src="api/users.js"></script>
-<!-- <script src="./js/test.js"></script> -->
 
 
 <footer id='footer'>

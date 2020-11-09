@@ -22,7 +22,7 @@ main {
     padding: 05px;
     display: grid;
     float: right;
-    grid-template-columns: repeat(auto-fill, minmax(140px, auto));
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
     color: rgb(87, 13, 129);
     background-color: rgb(248, 229, 248);
     border-radius: 05px;
@@ -39,7 +39,11 @@ main {
     margin-top: 02px;
 }
 
-#img {
+.imga {
     width: 100px;
     height: 80px;
+}
+
+a {
+    font-family: 'Roboto Mono', sans-serif;
 }
