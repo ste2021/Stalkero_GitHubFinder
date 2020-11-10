@@ -18,8 +18,8 @@ const mostrarLoad = () => { // Responsável pelo loading
 
 }
 
-function pegarPiracicabanos() { //Auando a pagina rolar, os piracicabanos vão aparecer
-    numeroDePokemons += 20;
+function pegarPiracicabanos() { //Quando a pagina rolar, os piracicabanos vão aparecer
+    numeroPiracicabanos += 20;
     getAllUsers();
 }
 

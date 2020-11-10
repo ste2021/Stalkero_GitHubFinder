@@ -3,7 +3,7 @@ const urldominio = "https://api.github.com";
 const urlUsers = "https://api.github.com/users"
 const profiles = document.getElementById("lista");
 const page = 1;
-const params = `search/users?q=+type:User+location:Piracicaba&per_page=500&page=${page}`;
+const params = `search/users?q=+type:User+location:Piracicaba&per_page=800&page=${page}`;
 const url = `${urldominio}/${params}`;
 
 //chamada api
