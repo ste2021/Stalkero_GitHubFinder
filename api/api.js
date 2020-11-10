@@ -11,7 +11,7 @@ var url = `${urldominio}/${params}`;
 async function getAllUsers() {
     let profileResponse = await fetch(
         `${urldominio}/search/users?q=+type:User+location:Piracicaba&per_page=20&page=${page}`)
-    page++;
+    
     let result = await profileResponse.json();
     for (let item of result.items) {
         // //jogar os dados do array (users) em uma variável
@@ -23,13 +23,20 @@ async function getAllUsers() {
          
         let tmp = document.querySelector("#tmp").content;
         let clone = tmp.cloneNode(true); //filhos da div,,, usa o true para percorrer pelos elementos h2 e h4
+        clone.querySelector(".link").addEventListener(
+               "click", function (e) {
+                e.preventDefault();
+                exibirUser(user);
+          }
+        );
         clone.querySelector('.imga').src = user.avatar_url;
         clone.querySelector('.name').innerText = user.name;
         clone.querySelector('.Seguidores').innerText = user.followers;
         clone.querySelector('.Repos').innerText = user.public_repos;
         clone.querySelector('.Type').innerText = user.type;
-        clone.querySelector('a').href = "../index-perfil.html";
+        
         profiles.appendChild(clone);
+        
     }
 }
 const listarUsers = getAllUsers();

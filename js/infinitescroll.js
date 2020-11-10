@@ -20,7 +20,7 @@ const mostrarLoad = () => { // Responsável pelo loading
 }
 
 function pegarPiracicabanos() { //Quando a pagina rolar, os piracicabanos vão aparecer
-
+    page++;
     getAllUsers();
 
 }

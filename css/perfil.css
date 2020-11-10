@@ -11,9 +11,19 @@ a:hover {
     color: blueviolet;
 }
 
-#user-profile {
-    margin: 0;
+#userpopup {
+    margin-top: 20%;
+    top: 0;
+    left: 0;
+    display: none;
+    position: absolute;
+    
 }
+
+.bottomclose{
+    color: rgb(87, 13, 129);
+}
+
 
 .listaPerfil {
     text-align: center;

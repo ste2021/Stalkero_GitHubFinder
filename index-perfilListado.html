@@ -33,31 +33,50 @@
             <div class="clearfix "></div>
         </div>
     </header>
-    
+
     <br><br>
     <main>
         <div id=lista>
             <template id="tmp">
-                   <div class="item">
-                     <img class="imga" alt="foguetao">
-                     <br>
+                <div class="item">
+                    <img class="imga" alt="foguetao">
+                    <br>
                     <p class="name">Titulo</p>
                     <li class="Seguidores"><img src="images/seguidores.svg" /> Seguidores</li>
                     <li class="Repos"><img src="images/giticonrepos.svg" />Repos </li>
                     <li class="Type"><img src="images/company.png" /> Type</li>
                     <a class="link" target="_blank">Ver Perfil</a>
-                  </div>
-                  
-                </template>
+                </div>
+
+            </template>
         </div>
         <div class="load">
             <img src="images/loadpurple.gif" />
         </div>
     </main>
+
+    <section id="userpopup">
+
+        <div class="listaPerfil">
+            <bottom class="bottomclose" onclick="fecharUser()"> X </bottom>
+            <img class="imga" alt="foguetao">
+            <br>
+            <p class="name">Titulo</p>
+            <p class="bio">Titulo</p>
+            <li class="Seguidores"><img src="images/seguidores.svg" /> Seguidores</li>
+            <li class="Repos"><img src="images/giticonrepos.svg" />Repos </li>
+            <li class="Company"><img src="images/company.png" /> Type</li>
+            <li class="Email"><img src="" /></li>
+            <a class="link" target="_blank">Ver Perfil</a>
+        </div>
+
+    </section>
 </body>
+<script src="js/user.js"></script>
 <script src="api/api.js"></script>
 <script src="js/infinitescroll.js"></script>
-<script src="js/filter.js"></script>
+<!-- <script src="js/filter.js"></script> -->
+
 
 
 <footer id='footer'>
