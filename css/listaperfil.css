@@ -2,8 +2,8 @@ main {
     margin: 20px;
 }
 
-.filtros {
-    text-align: center;
+.searchinput{
+    margin: 05px;
 }
 
 .mostrar {
@@ -20,17 +20,17 @@ main {
 .item {
     text-align: center;
     font-family: 'Roboto Mono', sans-serif;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 352px;
+    margin-right: auto;
     margin-bottom: 20px;
     border: 05px solid #71067a20;
     padding: 05px;
     display: grid;
-    float: right;
-    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fill, minmax(170px, auto));
     color: rgb(87, 13, 129);
     background-color: rgb(248, 229, 248);
     border-radius: 05px;
+    position: block;
 }
 
 .item :hover {
@@ -45,7 +45,7 @@ main {
 }
 
 .imga {
-    float: left;
+    
     width: 150px;
     height: auto;
     border: 02px purple;

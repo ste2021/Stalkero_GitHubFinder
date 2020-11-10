@@ -28,21 +28,12 @@
                 <p class="pesquisarPiracicabanos ">
                     <img class="imgLupa " src="./images/loupe.png" />
                 </p>
-                <input id="search" class="searchform" placeholder="Encontre seu Dev aqui" required />
+                <input id="inputsearch" type="search" placeholder="Encontre seu Dev aqui" />
             </div>
-
             <div class="clearfix "></div>
         </div>
     </header>
-    <div class="filtros">
-        <p class="filtro"> FILTRAR</p>
-        <input type="radio" name="filtro" id="todo" checked>
-        <label>Data</label>
-        <input type="radio" name="filtro" id="laptop">
-        <label>Stars</label>
-        <input type="radio" name="filtro" id="tablet">
-        <label>Followers</label>
-    </div>
+    
     <br><br>
     <main>
         <div id=lista>
@@ -65,7 +56,8 @@
     </main>
 </body>
 <script src="api/api.js"></script>
-<script src="js/filterscroll.js"></script>
+<script src="js/infinitescroll.js"></script>
+<script src="js/filter.js"></script>
 
 
 <footer id='footer'>
