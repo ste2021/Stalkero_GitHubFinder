@@ -6,7 +6,11 @@ main {
     text-align: center;
 }
 
-.ldBar {
+.mostrar {
+    opacity: 1;
+}
+
+.load {
     color: rgb(97, 18, 128);
     font-family: 'varela round';
     font-size: 2.5em;

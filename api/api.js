@@ -1,21 +1,23 @@
-const users = [];
+let users = [];
 const urldominio = "https://api.github.com";
-const urlUsers = "https://api.github.com/users"
-const profiles = document.getElementById("lista");
-const page = 1;
-const params = `search/users?q=+type:User+location:Piracicaba&per_page=800&page=${page}`;
-const url = `${urldominio}/${params}`;
+var urlUsers = "https://api.github.com/users"
+var profiles = document.getElementById("lista");
+var page = 1;
+console.log(page);
+var params = `search/users?q=+type:User+location:Piracicaba&per_page=20&page=${page}`;
+var url = `${urldominio}/${params}`;
 
 //chamada api
 //chamada para todos os usuários
 async function getAllUsers() {
-    const profileResponse = await fetch(
-        `${url}`)
+    let profileResponse = await fetch(
+        `${urldominio}/search/users?q=+type:User+location:Piracicaba&per_page=20&page=${page}`)
+    page++;
     let result = await profileResponse.json();
     for (let item of result.items) {
-        //jogar os dados do array (users) em uma variável
+        // //jogar os dados do array (users) em uma variável
         let user = await getUser(item);
-        //condição para n repetir users no array
+        // //condição para n repetir users no array
         if (!users.some(u => {
                 return u.id == user.id
             })) { users.push(user) }

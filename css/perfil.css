@@ -11,7 +11,11 @@ a:hover {
     color: blueviolet;
 }
 
-.card {
+#user-profile {
+    margin: 0;
+}
+
+.listaPerfil {
     text-align: center;
     font-family: 'Roboto Mono', sans-serif;
     border: 10px solid #71067a20;
@@ -24,7 +28,7 @@ a:hover {
     border-radius: 05px;
 }
 
-#imagemPerfil {
+.imga {
     width: 150px;
     height: 200;
     margin-top: 20px;
@@ -32,12 +36,10 @@ a:hover {
     float: left;
 }
 
-.nome {
-    font-size: 20px;
-    text-align: left;
-    /* vertical-align: middle; */
-    /* float: right; */
-    color: purple;
+.name {
+    font-size: 19px;
+    font-weight: 08px;
+    margin-top: 02px;
 }
 
 .imga {
@@ -63,4 +65,17 @@ a:hover {
 a {
     margin-top: 05px;
     font-family: 'Roboto Mono', sans-serif;
+}
+
+footer {
+    text-align: center;
+    color: rgb(243, 210, 243);
+    text-align: center;
+    background-color: rgb(7, 1, 19);
+    width: 100%;
+    height: auto;
+    padding: 05px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }

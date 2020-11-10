@@ -5,6 +5,7 @@ body {
     color: #32004fff;
     font-family: 'Lato', sans-serif;
     background: linear-gradient(90deg, rgba(7, 1, 19, 1) 0%, rgba(60, 2, 79, 1) 35%, rgba(9, 8, 47, 1) 100%);
+    scroll-behavior: smooth;
 }
 
 header {
