@@ -23,14 +23,17 @@ async function getAllUsers() {
         let tmp = document.querySelector("#tmp").content;
         let clone = tmp.cloneNode(true); //filhos da div,,, usa o true para percorrer pelos elementos h2 e h4
         clone.querySelector('.imga').src = user.avatar_url;
-        clone.querySelector('h2').innerText = user.name;
-        clone.querySelector('h5').innerText = user.type;
-        clone.querySelector('a').href = user.url;
+        clone.querySelector('.name').innerText = user.name;
+        clone.querySelector('.Seguidores').innerText = user.followers;
+        clone.querySelector('.Repos').innerText = user.public_repos;
+
+        clone.querySelector('.Type').innerText = user.type;
+        clone.querySelector('a').href = user.html_url;
         profiles.appendChild(clone);
     }
 }
 
-getAllUsers();
+const listarUsers = getAllUsers();
 
 //puxar os dados (nome, repositorio )
 async function getUser(user) {
