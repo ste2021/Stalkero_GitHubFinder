@@ -14,9 +14,7 @@ const exibirUser = (user) => {  //
          popup.querySelector('a').href = user.html_url;
 
          popup.style.display = "block";
-
      } 
-
 
 const fecharUser = () => {
     let popup = document.querySelector("#userpopup");

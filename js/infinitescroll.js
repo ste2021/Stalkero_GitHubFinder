@@ -24,7 +24,7 @@ function pegarPiracicabanos() { //Quando a pagina rolar, os piracicabanos vão a
     getAllUsers();
 }
 
-const removerLoad = (refresh) => { //Remove o Loading e adiciona mais 20 piracicabanos
+const removerLoad = (refresh) => { //Remove o Loading e adiciona mais piracicabanos
     setTimeout(() => {
         Load.classList.remove('mostrar')
         if (refresh == true){

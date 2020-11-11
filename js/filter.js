@@ -41,7 +41,6 @@ function debounce(event) {
       filtrado = false;
       profiles.innerHTML = "";
       getAllUsers();
-      // pegarPiracicabanos();
       mostrarLoad();
     }
   }, 800);

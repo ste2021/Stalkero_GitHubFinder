@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/listaperfil.css">
@@ -28,7 +29,8 @@
     </header>
     <br><br>
     <main>
-        <div id=lista></div>
+        <!-- cards perfis -->
+        <div id=lista></div> 
         <template id="tmp">
             <div class="card">
                 <div class="item">
@@ -42,10 +44,12 @@
                 </div>
             </div>
         </template>
-        
+        <!-- load infinitescroll -->
+        <div class="load">
             <img src="images/loadpurple.gif" />
         </div>
     </main>
+    <!-- card popup -->
     <section id="userpopup">
         <div class="listaPerfil">
             <img class="imga2" alt="foguetao">
@@ -63,7 +67,7 @@
         </div>
         </div>
     </section>
-    <div class="load"></div>
+   </div>
 </body>
 <script src="js/user.js"></script>
 <script src="api/api.js"></script>

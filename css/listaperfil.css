@@ -11,11 +11,7 @@ main {
 }
 
 .load {
-    color: rgb(97, 18, 128);
-    font-family: 'varela round';
-    font-size: 2.5em;
-    font-weight: 900;
-    opacity: 0;
+       opacity: 0;
 }
 .card.item {
     margin-left: 500px;
@@ -24,7 +20,7 @@ main {
 .item {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 500px;
+    margin-left: 610px;
     margin-right: auto;
     margin-bottom: 20px;
     border: 05px solid #71067a20;

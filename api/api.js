@@ -2,9 +2,9 @@
 const urldominio = "https://api.github.com";
 let profiles = document.getElementById("lista");
 let page = 1;
-let params = `search/users?q=+location:Piracicaba&per_page=20&page=${page}`;
+let params = `search/users?q=+location:Piracicaba&per_page=10&page=${page}`;
 let url = `${urldominio}/${params}`;
-const accessToken = { token: "50aca22dda5474d5a46ca31ab0831ad883488aab" }; 
+const accessToken = { token: "0224954194e5d9dbcef738605ab441fea14c76b3" }; 
 const auth = accessToken.token;
 const limit = {
 
@@ -14,15 +14,15 @@ const limit = {
 //chamada para todos os usuários
 async function getAllUsers() {
     let profileResponse = await fetch(
-        `${urldominio}/search/users?q=+type:User+location:Piracicaba&per_page=03&page=${page}`, limit)
+        `${urldominio}/search/users?q=+type:User+location:Piracicaba&per_page=10&page=${page}`, limit)
     
     let result = await profileResponse.json();
     for (let item of result.items) {
         //cards usuarios
         let user = await getUser(item);
         let tmp = document.querySelector("#tmp").content;
-        let clone = tmp.cloneNode(true); //filhos da div,,, usa o true para percorrer pelos elementos h2 e h4
-        clone.querySelector(".link").addEventListener( //evento click no link ver perfil pr chamar a function exibirUser
+        let clone = tmp.cloneNode(true); //filhos da div,,, usa-se o true para percorrer pelos elementos por classe
+        clone.querySelector(".link").addEventListener(//evento click no link ver perfil pr chamar a function exibirUser
             "click", function (e) {
                 e.preventDefault();
                 exibirUser(user);
@@ -34,7 +34,6 @@ async function getAllUsers() {
         clone.querySelector('.Type').innerText = user.type;
 
         profiles.appendChild(clone);
-
     }
 }
 getAllUsers();
