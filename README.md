@@ -21,8 +21,10 @@
 ## Pontos a melhorar no projeto
 
 - [x] Melhorar o código 💿
-- [x] Melhorar o Design 💿💿
-- [x] Colocar filtros por Tipo (usuário ou organização) e por ordem (data de cadastro, números de seguidores e número de repositórios).
+- [x] Melhorar o Design 💿
+- [x] Colocar filtros por Tipo (usuário ou organização) e por ordem (data de cadastro, números de seguidores e número de repositórios)💿
+- [x] Implementar Scroll to Top 💿
+- [x] Implementar Responsividade (Mobile First)💿
 
 #### Referências:
 
