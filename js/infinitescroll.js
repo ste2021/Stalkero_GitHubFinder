@@ -1,18 +1,21 @@
 const Load = document.querySelector('.load');
+let filtrado = false;
 let contagemPg = 0;
 
 window.addEventListener('scroll', () => {
     const { clientHeight, scrollHeight, scrollTop } = document.documentElement; //checa se o usuário chegou ao fim da página 
     const usuariofimPg = scrollTop + clientHeight >= scrollHeight - 10;
-        if (usuariofimPg) {
-        mostrarLoad();
-    }
+        
+        if (usuariofimPg && !filtrado) {
+            mostrarLoad();
+        }
+     
 })
 
 const mostrarLoad = () => { // Responsável pelo loading
     if (lista.innerHTML > "" && contagemPg == 0 && lista.childElementCount > 2) {
         Load.classList.add('mostrar');
-        removerLoad();
+        removerLoad(true);
     }
 }
 
@@ -21,9 +24,11 @@ function pegarPiracicabanos() { //Quando a pagina rolar, os piracicabanos vão a
     getAllUsers();
 }
 
-const removerLoad = () => { //Remove o Loading e adiciona mais 20 piracicabanos
+const removerLoad = (refresh) => { //Remove o Loading e adiciona mais 20 piracicabanos
     setTimeout(() => {
         Load.classList.remove('mostrar')
-        pegarPiracicabanos();
-    }, 1000)
+        if (refresh == true){
+            pegarPiracicabanos();
+        }
+   }, 1000)
 }

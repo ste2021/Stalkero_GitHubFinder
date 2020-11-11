@@ -1,10 +1,9 @@
-let users = [];
+
 const urldominio = "https://api.github.com";
-var urlUsers = "users";
-var profiles = document.getElementById("lista");
-var page = 1;
-var params = `search/users?q=+location:Piracicaba&per_page=20&page=${page}`;
-var url = `${urldominio}/${params}`;
+let profiles = document.getElementById("lista");
+let page = 1;
+let params = `search/users?q=+location:Piracicaba&per_page=20&page=${page}`;
+let url = `${urldominio}/${params}`;
 
 const accessToken = { token: "50aca22dda5474d5a46ca31ab0831ad883488aab" };
 const auth = accessToken.token;

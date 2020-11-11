@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +7,17 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/listaperfil.css">
     <link rel="stylesheet" href="./css/popup.css">
-
-
     <title>Stalkero Perfil</title>
 </head>
-
 <body>
-
     <header>
         <div class=" nav">
             <nav class="navbar">
-                <!-- <img class="img " src="./images/lupapurple.svg " /> -->
                 <img class="img " src="./images/githubicon.png " />
                 <h2 class="titulo ">STALKERO</h2>
                 <div class="clearfix "></div>
             </nav>
             <div class="searchNav ">
-
                 <p class="pesquisarPiracicabanos ">
                     <img class="imgLupa " src="./images/loupe.png" />
                 </p>
@@ -33,11 +26,11 @@
             <div class="clearfix "></div>
         </div>
     </header>
-
     <br><br>
     <main>
-        <div id=lista>
-            <template id="tmp">
+        <div id=lista></div>
+        <template id="tmp">
+            <div class="card">
                 <div class="item">
                     <img class="imga" alt="imgPiracicabano(a)">
                     <br>
@@ -47,18 +40,14 @@
                     <li class="Type">Type<img src="images/company.png" /> Type</li>
                     <a class="link" target="_blank">Ver Perfil</a>
                 </div>
-
-            </template>
-        </div>
-        <div class="load">
+            </div>
+        </template>
+        
             <img src="images/loadpurple.gif" />
         </div>
     </main>
-
     <section id="userpopup">
-
         <div class="listaPerfil">
-            
             <img class="imga2" alt="foguetao">
             <br>
             <p id="name">Titulo</p>
@@ -67,24 +56,19 @@
             <li class="Repos">Repos </li>
             <li class="Company"> Type</li>
             <li class="Location"></li>
-            
-            <a class="link" target="_blank"><img src="./images/link.svg"/>Ver Perfil</a>
+            <a class="link" target="_blank"><img src="./images/link.svg" />Ver Perfil</a>
             <div class="buttom">
-            <buttom class="bottomclose" onclick="fecharUser()"><img src="images/cancel.png" /> Fechar </buttom>
+                <buttom class="bottomclose" onclick="fecharUser()"><img src="images/cancel.png" /> Fechar </buttom>
             </div>
         </div>
-        
-        
         </div>
     </section>
+    <div class="load"></div>
 </body>
 <script src="js/user.js"></script>
 <script src="api/api.js"></script>
 <script src="js/infinitescroll.js"></script>
 <script src="js/filter.js"></script>
-
-
-
 <footer id='footer'>
     Desenvolvido por Estela de Oliveira ®
 </footer>
