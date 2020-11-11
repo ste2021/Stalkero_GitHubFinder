@@ -21,10 +21,15 @@ main {
     float: left;
 }
 
+input{
+    width: 300px;
+    font-size: 17px;
+}
+
 .titulo {
     color: rgb(243, 210, 243);
     font-family: 'Chau Philomene One', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
     margin: center;
     margin-left: 20px;
     float: center;
@@ -68,17 +73,6 @@ main {
     color: #32004fff;
     float: right;
     border-radius: 15px;
-}
-
-.searchform {
-    position: relative;
-    width: 195px;
-    height: auto;
-    font-size: 15px;
-    line-height: 1.5;
-    color: #495057;
-    background-color: rgb(233, 216, 233);
-    border-radius: 05px;
 }
 
 .pesquisarPiracicabanos {

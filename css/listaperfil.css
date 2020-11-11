@@ -17,13 +17,14 @@ main {
     font-weight: 900;
     opacity: 0;
 }
-.card{
+.card.item {
     margin-left: 500px;
 
 }
 .item {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 500px;
     margin-right: auto;
     margin-bottom: 20px;
     border: 05px solid #71067a20;
