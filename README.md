@@ -22,6 +22,7 @@
 
 - [x] Melhorar o código 💿
 - [x] Melhorar o Design 💿💿
+- [x] Colocar filtros por Tipo (usuário ou organização) e por ordem (data de cadastro, números de seguidores e número de repositórios).
 
 #### Referências:
 
