@@ -16,13 +16,11 @@ const mostrarLoad = () => { // Responsável pelo loading
         Load.classList.add('mostrar');
         removerLoad();
     }
-
 }
 
 function pegarPiracicabanos() { //Quando a pagina rolar, os piracicabanos vão aparecer
     page++;
     getAllUsers();
-
 }
 
 const removerLoad = () => { //Remove o Loading e adiciona mais 20 piracicabanos

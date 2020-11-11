@@ -45,13 +45,13 @@ main {
 }
 
 .imga {
-    
+    float: left;
     width: 150px;
     height: auto;
     border: 02px purple;
+    border-radius: 50%;
     ;
 }
-
 .Repos {
     list-style-image: url("../images/giticonrepos.svg");
 }

@@ -1,10 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap);
-h4 {
-    margin: 20px;
-    text-align: center;
-    font-family: 'Roboto Mono', sans-serif;
-    color: rosybrown;
-}
+
 
 a:hover {
     text-align: center;
@@ -13,15 +8,12 @@ a:hover {
 
 #userpopup {
     margin-top: 20%;
+    margin-left: 30%;
     top: 0;
     left: 0;
     display: none;
     position: absolute;
     
-}
-
-.bottomclose{
-    color: rgb(87, 13, 129);
 }
 
 
@@ -38,26 +30,15 @@ a:hover {
     border-radius: 05px;
 }
 
-.imga {
-    width: 150px;
-    height: 200;
-    margin-top: 20px;
-    flex-direction: row;
-    float: left;
+.imga2{
+    width: 200px;
+    height: auto;
 }
 
 .name {
     font-size: 19px;
     font-weight: 08px;
     margin-top: 02px;
-}
-
-.imga {
-    float: left;
-    width: 150px;
-    height: auto;
-    border: 02px purple;
-    ;
 }
 
 .Repos {
@@ -68,14 +49,20 @@ a:hover {
     list-style-image: url("../images/seguidores.svg");
 }
 
-.Type {
+.Company {
     list-style-image: url("../images/company2.png");
 }
+.Location {
+    list-style-image: url("../images/location.svg");
+}
+
 
 a {
     margin-top: 05px;
     font-family: 'Roboto Mono', sans-serif;
 }
+
+
 
 footer {
     text-align: center;

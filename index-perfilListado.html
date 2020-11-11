@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/listaperfil.css">
-    <link rel="stylesheet" href="./css/perfil.css">
+    <link rel="stylesheet" href="./css/popup.css">
 
 
     <title>Stalkero Perfil</title>
@@ -39,7 +39,7 @@
         <div id=lista>
             <template id="tmp">
                 <div class="item">
-                    <img class="imga" alt="foguetao">
+                    <img class="imga" alt="imgPiracicabano(a)">
                     <br>
                     <p class="name">Titulo</p>
                     <li class="Seguidores"><img src="images/seguidores.svg" /> Seguidores</li>
@@ -58,18 +58,24 @@
     <section id="userpopup">
 
         <div class="listaPerfil">
-            <bottom class="bottomclose" onclick="fecharUser()"> X </bottom>
-            <img class="imga" alt="foguetao">
+            
+            <img class="imga2" alt="foguetao">
             <br>
             <p class="name">Titulo</p>
             <p class="bio">Titulo</p>
             <li class="Seguidores"><img src="images/seguidores.svg" /> Seguidores</li>
             <li class="Repos"><img src="images/giticonrepos.svg" />Repos </li>
             <li class="Company"><img src="images/company.png" /> Type</li>
-            <li class="Email"><img src="" /></li>
-            <a class="link" target="_blank">Ver Perfil</a>
+            <li class="Location"></li>
+            
+            <a class="link" target="_blank"><img src="./images/link.svg"/>Ver Perfil</a>
+            <div class="buttom">
+            <buttom class="bottomclose" onclick="fecharUser()"><img src="images/cancel.png" /> Fechar </buttom>
+            </div>
         </div>
-
+        
+        
+        </div>
     </section>
 </body>
 <script src="js/user.js"></script>
