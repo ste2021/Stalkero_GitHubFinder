@@ -2,7 +2,7 @@ main {
     margin: 20px;
 }
 
-.searchinput{
+.searchinput {
     margin: 05px;
 }
 
@@ -19,14 +19,14 @@ main {
 
 .item {
     text-align: center;
-    font-family: 'Roboto Mono', sans-serif;
-    margin-left: 352px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 500px;
     margin-right: auto;
     margin-bottom: 20px;
     border: 05px solid #71067a20;
     padding: 05px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(170px, auto));
+   
     color: rgb(87, 13, 129);
     background-color: rgb(248, 229, 248);
     border-radius: 05px;
@@ -52,6 +52,7 @@ main {
     border-radius: 50%;
     ;
 }
+
 .Repos {
     list-style-image: url("../images/giticonrepos.svg");
 }

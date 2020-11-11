@@ -5,10 +5,10 @@ const exibirUser = (user) => {  //
     let popup = document.querySelector("#userpopup");
     
          popup.querySelector('.imga2').src = user.avatar_url; 
-         popup.querySelector('.name').innerText = user.name; 
+         popup.querySelector('#name').innerText = user.name; 
          popup.querySelector('.bio').innerText = user.bio; 
-         popup.querySelector('.Seguidores').innerText = user.followers; 
-         popup.querySelector('.Repos').innerText = user.public_repos; 
+         popup.querySelector('.Seguidores').innerText = (user.followers) + "   Seguidores"; 
+         popup.querySelector('.Repos').innerText = user.public_repos + "  Repositórios"; 
          popup.querySelector('.Company').innerText = user.company;
          popup.querySelector('.Location').innerText = user.location; 
          popup.querySelector('a').href = user.html_url;

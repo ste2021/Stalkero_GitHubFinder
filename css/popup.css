@@ -7,38 +7,45 @@ a:hover {
 }
 
 #userpopup {
-    margin-top: 20%;
+    margin-top: 15%;
     margin-left: 30%;
     top: 0;
     left: 0;
     display: none;
-    position: absolute;
+    position: fixed;
     
 }
 
 
 .listaPerfil {
+    margin: 05px;
     text-align: center;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 10px solid #71067a20;
-    height: 400px;
+    height: auto;
     width: 500px;
     padding: 05px;
     display: grid;
     color: rgb(87, 13, 129);
     background-color: rgb(248, 229, 248);
     border-radius: 05px;
+    position: relative;
 }
 
 .imga2{
-    width: 200px;
+    margin-top: 05px;
+    text-align: center;
+    width: 180px;
     height: auto;
+    position: relative;
 }
 
-.name {
+#name {
+    color: black;
+    float: inherit;
     font-size: 19px;
-    font-weight: 08px;
-    margin-top: 02px;
+    margin: 05px;
+    text-transform: uppercase;
 }
 
 .Repos {
@@ -58,8 +65,10 @@ a:hover {
 
 
 a {
+    
     margin-top: 05px;
     font-family: 'Roboto Mono', sans-serif;
+    margin-bottom: 10px;
 }
 
 
