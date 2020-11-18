@@ -8,7 +8,7 @@ const accessToken = { token: " 370d19dab14e043dbc285103e1fab738c3f4355c" };
 const auth = accessToken.token;
 const limit = {
 
-    headers: {Authorization: "Basic " + btoa(auth)
+    headers: {Authorization: "Basic" + btoa(auth)
     },
 };
 //chamada para todos os usuários
@@ -40,7 +40,7 @@ getAllUsers();
 //puxar os dados (nome, repositorio )
 async function getUser(user) {
     const userUrl = user.url;
-    const userResponse = await fetch(userUrl);
+    const userResponse = await fetch(userUrl, limit);
     const userResult = await userResponse.json();
 
     return userResult;
