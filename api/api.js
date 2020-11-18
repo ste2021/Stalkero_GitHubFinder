@@ -4,7 +4,7 @@ let profiles = document.getElementById("lista");
 let page = 1;
 let params = `search/users?q=+location:Piracicaba&per_page=10&page=${page}`;
 let url = `${urldominio}/${params}`;
-const accessToken = { token: "0224954194e5d9dbcef738605ab441fea14c76b3" }; 
+const accessToken = { token: " 370d19dab14e043dbc285103e1fab738c3f4355c" }; 
 const auth = accessToken.token;
 const limit = {
 
