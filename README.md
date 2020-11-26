@@ -33,5 +33,5 @@
 - [x] [CSS Tricks](https://css-tricks.com/almanac/)
 
 
-Desenvolvido por PECEGE  - Estela de Oliveira ®
+### <center> Desenvolvido por PECEGE  - Estela de Oliveira ®</center>
 
