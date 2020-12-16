@@ -4,7 +4,7 @@
 
 ```Objetivo do projeto```
 
-### Desenvolver um site que busque os devs da região de Piracicaba consumindo a API do Github
+### Desenvolver um site que busque os devs da região de Piracicaba consumindo a API do Github, usando apenas Js Puro
 
 ```Requisitos Necessários```
 
